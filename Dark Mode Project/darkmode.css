@@ -1,0 +1,52 @@
+a{
+    margin: 10px;
+    outline: red solid 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: yellow;
+    padding: 10px;
+}
+
+a:hover{
+transition: 0.3s;
+background-color:blue;
+color: red;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 78px;
+    opacity: 0.9;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+button:hover{
+border-style: solid;
+border-color: red;
+border-width: 1px;
+transition: 0.5s;
+background-color: black;
+color: white;
+}
+
+.dark-mode{
+background-color: black;
+font-style: italic;
+color: white;
+transition: all 0.5s;
+}
+
+
+body{
+    transition: 0.5s;
+}
